@@ -15,6 +15,18 @@ public class Sample1 {
 			System.out.println("Empolyee name " + name);
 			System.out.println("Mobile number "+ mobileNo);
 		}
+	    private void qual(String qual, double per) {
+	    	System.out.println("Qualification of Employee is "+qual);
+	    	System.out.println("Percentage of Marks Scored is "+per);
+		}
+	    private void empDetails(int salary, String DOB, String Address) {
+	    	System.out.println("Salary of Employee is " +salary);
+	    	System.out.println("DOB os Employee is " +DOB);
+	    	System.out.println("Address of Employee is " +Address);
+		}
+	    
+	    
+	    
 	}
 
 
