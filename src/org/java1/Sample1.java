@@ -16,8 +16,18 @@ public class Sample1 {
 			System.out.println("Empolyee name " + name);
 			System.out.println("Mobile number "+ mobileNo);
 		}
+	   
+	    private void qual(String qual, double per) {
+	    	System.out.println("Qualification of Employee is "+qual);
+	    	System.out.println("Percentage of Marks Scored is "+per);
+		}
+	    private void empDetails(int salary, String DOB, String Address) {
+	    	System.out.println("Salary of Employee is " +salary);
+	    	System.out.println("DOB os Employee is " +DOB);
+	    	System.out.println("Address of Employee is " +Address);
+		}
 	    public static void main(String[] args) {
-			SampleJava p=new SampleJava();
+			Sample1 p=new Sample1();
 			p.empDetails(100);
 			p.empDetails();
 			p.empDetails("surya", 8778531564L);
@@ -25,6 +35,7 @@ public class Sample1 {
 			p.qual("B.E. Mechanical Engineering", 72.1);
 			p.empDetails(93565, "10.05.1990", "Konur, Dindigul");
 		}
+	    
 	    
 	}
 
