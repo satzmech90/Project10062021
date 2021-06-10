@@ -1,5 +1,6 @@
 package org.java1;
 
+
 public class Sample1 {
 		private void empDetails() {
 			System.out.println("Normal method");
@@ -15,6 +16,7 @@ public class Sample1 {
 			System.out.println("Empolyee name " + name);
 			System.out.println("Mobile number "+ mobileNo);
 		}
+	   
 	    private void qual(String qual, double per) {
 	    	System.out.println("Qualification of Employee is "+qual);
 	    	System.out.println("Percentage of Marks Scored is "+per);
@@ -24,7 +26,15 @@ public class Sample1 {
 	    	System.out.println("DOB os Employee is " +DOB);
 	    	System.out.println("Address of Employee is " +Address);
 		}
-	    
+	    public static void main(String[] args) {
+			Sample1 p=new Sample1();
+			p.empDetails(100);
+			p.empDetails();
+			p.empDetails("surya", 8778531564L);
+			p.empDetails(1423, 1994);
+			p.qual("B.E. Mechanical Engineering", 72.1);
+			p.empDetails(93565, "10.05.1990", "Konur, Dindigul");
+		}
 	    
 	    
 	}
